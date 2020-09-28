@@ -11,6 +11,8 @@
    ========================================================================== */
 
 html {
+    background: url(https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) no-repeat;
+    background-size: cover;
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -112,19 +114,21 @@ body {
   display: flex;
   flex-flow: row wrap;
   font-weight: 700;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .div-1, .div-2, .div-3 {
-  align-items: center;
-  color: #fff;
+  align-items: stretch;
+  color: #993300;
   display: flex;
   justify-content: center;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
-  width: 30%;
+  line-height: 2em;
+  font-size: 1em;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  height: 40%;
+  width: 20%;
+  text-align: center;
 }
 
 
